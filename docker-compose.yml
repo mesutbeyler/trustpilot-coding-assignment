@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  trustpilot-coding-assignment:
+    image: 'node:19'
+    command: npm run dev -- --host
+    ports:
+      - 5173:5173
+    volumes:
+      - ./:/www/trustpilot-coding-assignment
+    working_dir: /www/trustpilot-coding-assignment
