@@ -1,0 +1,11 @@
+version = 1
+
+[merge]
+automerge_label = "🚀 merge it!"
+blocking_labels = ["do not merge"]
+delete_branch_on_merge = true
+method = "squash"
+
+[merge.automerge_dependencies]
+usernames = ["dependabot"]
+versions = ["minor", "patch"]
