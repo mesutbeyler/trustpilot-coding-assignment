@@ -1,12 +1,4 @@
 {
   "root": true,
-  "extends": "@alexandre-bordiere/eslint-config",
-  "overrides": [
-    {
-      "files": ["env.d.ts"],
-      "rules": {
-        "spaced-comment": "off"
-      }
-    }
-  ]
+  "extends": "@alexandre-bordiere/eslint-config"
 }
